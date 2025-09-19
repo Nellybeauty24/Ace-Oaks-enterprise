@@ -33,7 +33,8 @@ margin-bottom: 30px;
 }
 
 /* Who We Are */
-.who-we-are {
+.who-we-aree {
+  background-color:white;
   position: relative;
  
   width: 100%;
@@ -43,7 +44,7 @@ margin-bottom: 30px;
   overflow: hidden; 
 }
 
-.who-we-are .about-bg {
+.who-we-aree .about-bg {
   width: 100%;         
   height: 400px;
   display: block;
@@ -51,7 +52,7 @@ margin-bottom: 30px;
   border-radius: 8px;
 }
 
-.who-we-are .about-text {
+.who-we-aree .about-text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -64,7 +65,7 @@ margin-bottom: 30px;
   border-radius: 8px;
 }
 
-.who-we-are .about-text h3 {
+.who-we-aree .about-text h3 {
   font-size: 48px;
   margin-bottom: 15px;
   font-weight: 400;
@@ -73,7 +74,7 @@ margin-bottom: 30px;
   color: #000;
 }
 
-.who-we-are .about-text p {
+.who-we-aree .about-text p {
     font-family: 'public sans';
     font-weight: 700;
   font-size: 24px;

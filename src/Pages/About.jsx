@@ -1,6 +1,6 @@
 import Navbar from "../Components/Navbar"
 import Footer from "../Components/Footer"
-import Rectangle from "../assets/Images/Rectangle .png"
+import Rectangle from "../assets/Images/Rectangle.png"
 import '../Styles/About.css'
 import BrownBg from "../assets/Images/brown-bg.png"; // your wood background
 import BurgerIcon from "../assets/Images/BurgerIcon.png"
@@ -11,7 +11,7 @@ const About = () => {
       <Navbar/>
       <section className="about">
         <h2><span> About</span> Ace Oaks Ltd</h2>
-    <div className="who-we-are">
+    <div className="who-we-aree">
   <img src={Rectangle} alt="About Background" className="about-bg" />
   <div className="about-text">
     <h3>Who We Are</h3>

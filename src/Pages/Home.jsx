@@ -62,7 +62,9 @@ function Home() {
           we offer the finest materials to meet your building and interior
           needs.
         </p>
-        <button className="btn-secondaryy">Learn More  <GoArrowUpRight /></button>
+     <Link to="/products" className="btn-secondaryy">
+  Learn More <GoArrowUpRight />
+</Link>
       </section>
 
       {/* What We Offer */}
@@ -128,9 +130,15 @@ function Home() {
         <p>📍 No 83, Palm Avenue, Mushin Lagos <br />
 📞 09074274154 / 07026205563 <br />
 📧 aceoaksltd@gmail.com</p>
-        <Link to="/contact-us" className="btn-primary">
-          Contact Us
-        </Link>
+         {/* ✅ WhatsApp Link */}
+          <a
+            href="https://wa.me/2347026205563?text=Hello%20Ace%20Oaks%2C%20I%20would%20like%20to%20make%20an%20enquiry"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary"
+          >
+            Contact Us
+          </a>
       </section>
 
       <Footer />
